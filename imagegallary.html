@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+       div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        }
+        div.gallery-item{
+            margin: 3px;
+            border: 1px solid;
+            width: 180px;
+        }
+        
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>image gallery</title>
 </head>
 <body>
     <h2>image gallery</h2>
- <img src="image copy 16.png" alt="image copy 16.png" height="300" width="300"> 
- <img src="image copy 18.png" alt="image copy 18.png" height="300" width="300">
- <img src="image copy 20.png" alt="image copy 20.png" height="300" width="300">  
- <img src="image copy 22.png" alt="image copy 22.png" height="300" width="300">
- <img src="image copy 24.png" alt="image copy 24.png" height="300" width="300">
- <img src="image copy 26.png" alt="image copy 26.png" height="300" width="300">
- <img src="image copy 28.png" alt="image copy 28.png" height="300" width="300">
- <img src="image copy 30.png" alt="image copy 30.png" height="300" width="300">
- <img src="image copy 32.png" alt="image copy 32.png" height="300" width="300">
- <img src="image copy 34.png" alt="image copy 34.png" height="300" width="300">
- <img src="image copy 36.png" alt="image copy 36.png" height="300" width="300">
- <img src="image copy 38.png" alt="image copy 38.png" height="300" width="300">
- 
+    <div class="gallery-item">
+       <a target="_blank" href="image copy 16.png">
+         <img src="image copy 16.png" alt="image copy 16.png" height="300" width="300"> 
+       </a>
+     <div class="desc">forest</div>
+    </div>
+
 </body>
 </html>
