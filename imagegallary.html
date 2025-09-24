@@ -2,28 +2,15 @@
 <html lang="en">
 <head>
     <style>
-    .gallery-item {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-}
-div.gallery {
-  border: 50px solid black;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-div.gallery:hover {
-  border: 5px solid black;
-}
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
- div.desc{
-    box-sizing: border-box;
- }
+   div.gallery{
+    width:100%;
+    overflow: auto;
+   }
+   div.gallery div{
+    width: 33%;
+    float: left;
+   }
+ 
 
     </style>
     <meta charset="UTF-8">
