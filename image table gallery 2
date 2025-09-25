@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <h2 align="center">Image Gallery</h2>
+    <table border="1" cellpadding="10" cellspacing="5" align="center" width="90%">
+      <tr>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/500?random=1">
+            <img src="https://picsum.photos/400/500?random=1" alt="Random Nature Scene 1" width="300" height="375" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/600?random=102">
+            <img src="https://picsum.photos/400/600?random=102" alt="Random Nature Scene 2" width="300" height="450" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/450?random=203">
+            <img src="https://picsum.photos/400/450?random=203" alt="Random Nature Scene 3" width="300" height="337" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/700?random=4">
+            <img src="https://picsum.photos/400/700?random=4" alt="Random Nature Scene 4" width="300" height="525" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/350?random=105">
+            <img src="https://picsum.photos/400/350?random=105" alt="Random Nature Scene 5" width="300" height="262" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/550?random=206">
+            <img src="https://picsum.photos/400/550?random=206" alt="Random Nature Scene 6" width="300" height="412" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/480?random=7">
+            <img src="https://picsum.photos/400/480?random=7" alt="Random Nature Scene 7" width="300" height="360" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/650?random=108">
+            <img src="https://picsum.photos/400/650?random=108" alt="Random Nature Scene 8" width="300" height="487" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/420?random=209">
+            <img src="https://picsum.photos/400/420?random=209" alt="Random Nature Scene 9" width="300" height="315" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/580?random=10">
+            <img src="https://picsum.photos/400/580?random=10" alt="Random Nature Scene 10" width="300" height="435" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/380?random=111">
+            <img src="https://picsum.photos/400/380?random=111" alt="Random Nature Scene 11" width="300" height="285" />
+          </a>
+        </td>
+        <td align="center">
+          <a target="_blank" href="https://picsum.photos/400/520?random=212">
+            <img src="https://picsum.photos/400/520?random=212" alt="Random Nature Scene 12" width="300" height="390" />
+          </a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
