@@ -2,29 +2,24 @@
 <html lang="en">
 <head>
     <style>
-      div{
-        display:flex;
-        justify-content:center;
-        align-items: center;
-        flex-wrap: wrap;
+      .grid-continer {
+        display:grid;
+        grid-template-columns:repeat(3, 1fr)
+        gap:20px;
+        padding: 20px;
       }
-      div.img{
-        width: 400px;
-        height:500px;
-        border: 2px solid black;
+      .gallary-item{
+        border:2px solid black;
         border-radius: 13px;
-        margin: 10px;
+        overflow: hidden:
+      }
+        .gallery-item img{
+          width:100%;
+          height:auto;
+          display:block;
 
-      }
-      .grid-container{
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-      }
-   
-   div.gallery div{
-    width: 33%;
-    float: left;
-   }
+        }
+      
  
 
     </style>
