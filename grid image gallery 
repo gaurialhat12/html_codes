@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .gallery-item {
+        border: 2px solid black;
+        border-radius: 13px;
+        overflow: hidden;
+      }
+      
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image gallery</title>
+  </head>
+  <body>
+    <h2>image gallery</h2>
+    <div class="grid-container">
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=1">
+          <img
+            src="https://picsum.photos/500/500?random=1"
+            alt="Random Image 1"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=2">
+          <img
+            src="https://picsum.photos/500/500?random=2"
+            alt="Random Image 2"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=3">
+          <img
+            src="https://picsum.photos/500/500?random=3"
+            alt="Random Image 3"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=4">
+          <img
+            src="https://picsum.photos/500/500?random=4"
+            alt="Random Image 4"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=5">
+          <img
+            src="https://picsum.photos/500/500?random=5"
+            alt="Random Image 5"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=6">
+          <img
+            src="https://picsum.photos/500/500?random=6"
+            alt="Random Image 6"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=7">
+          <img
+            src="https://picsum.photos/500/500?random=7"
+            alt="Random Image 7"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=8">
+          <img
+            src="https://picsum.photos/500/500?random=8"
+            alt="Random Image 8"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=9">
+          <img
+            src="https://picsum.photos/500/500?random=9"
+            alt="Random Image 9"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=10">
+          <img
+            src="https://picsum.photos/500/500?random=10"
+            alt="Random Image 10"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=11">
+          <img
+            src="https://picsum.photos/500/500?random=11"
+            alt="Random Image 11"
+          />
+        </a>
+      </div>
+      <div class="gallery-item">
+        <a target="_blank" href="https://picsum.photos/500/500?random=12">
+          <img
+            src="https://picsum.photos/500/500?random=12"
+            alt="Random Image 12"
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
