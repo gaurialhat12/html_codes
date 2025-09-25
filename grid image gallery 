@@ -29,7 +29,7 @@
     <h2>image gallery</h2>
     <div class="grid-container">
       <div class="gallery-item">
-        <a target="_blank" href="https://picsum.photos/500/500?random=1">
+        <a target="_blank" href="">
           <img
             src="https://picsum.photos/500/500?random=1"
             alt="Random Image 1"
